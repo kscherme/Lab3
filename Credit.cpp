@@ -7,7 +7,7 @@
 using namespace std;
 
 // Constructors
-	Credit::Credit() {
+Credit::Credit() : BankAccount() {
 		charge = 0;
 		chargeLocation = "Empty";
 	}

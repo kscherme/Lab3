@@ -7,7 +7,7 @@
 using namespace std;
 
 // Constructor
-	Checking::Checking() {
+Checking::Checking() : BankAccount() {
 		deposits = 0;
 		withdrawls = 0;
 	}

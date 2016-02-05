@@ -15,4 +15,4 @@ class Checking : public BankAccount {
 	private: 
 		double deposits;
 		double withdrawls;
-}
+};

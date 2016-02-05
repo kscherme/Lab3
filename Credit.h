@@ -8,8 +8,9 @@ using namespace std;
 
 class Credit : public BankAccount {
 	public:
+                Credit();
 		void print();
 	private:
 		double charge;
 		string chargeLocation;
-}
+};
