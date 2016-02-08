@@ -16,4 +16,4 @@ Credit.o: Credit.cpp
 	g++ -c Credit.cpp
 
 clean:
-        rm -f *.o main
+	rm -f *.o main
