@@ -12,8 +12,8 @@ int main() {
 	TwoDayPackage pack1;
 	OvernightPackage pack2;
 
-	cout << pack1.CalculateCost() << endl;
-	cout << pack2.CalculateCost() << endl;
+	cout << "The cost of the two day package is: $" << pack1.CalculateCost() << endl;
+	cout << "The cost of the overnight package is: $" << pack2.CalculateCost() << endl;
 	
 	return 0;
 }

@@ -6,7 +6,7 @@
 #include "Checking.h"
 using namespace std;
 
-// Constructor
+// Default Constructor
 Checking::Checking() : BankAccount() {
 		deposits = 0;
 		withdrawls = 0;
