@@ -6,7 +6,7 @@
 #include "Credit.h"
 using namespace std;
 
-// Constructors
+// Default Constructor
 Credit::Credit() : BankAccount() {
 		charge = 0;
 		chargeLocation = "Empty";
